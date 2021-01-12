@@ -1,6 +1,7 @@
 {
   "name": "@abdulkader/tailwind-rtl",
   "version": "1.0.0",
+  "private": false,
   "description": "Tailwind CSS plugin to generate rtl variants.",
   "main": "index.js",
   "scripts": {
