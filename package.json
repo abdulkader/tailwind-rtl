@@ -4,27 +4,30 @@
   "description": "Tailwind CSS plugin to generate rtl variants.",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/murtazasultani/tailwind-rtl.git"
+    "url": "git+https://github.com/abdulkaderptp/tailwind-rtl.git"
   },
   "keywords": [
     "tailwindcss",
     "plugins",
     "rtl",
-    "Right to Left"
+    "Right to Left",
+    "tailwind-rtl"
   ],
-  "author": "Murtaza Sultani <https://twitter.com/amurtazasultani>",
+  "author": "Abdul Kader <https://github.com/abdulkaderptp>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/murtazasultani/tailwind-rtl/issues"
+    "url": "https://github.com/abdulkaderptp/tailwind-rtl/issues"
   },
-  "homepage": "https://github.com/murtazasultani/tailwind-rtl#readme",
+  "homepage": "https://github.com/abdulkaderptp/tailwind-rtl#readme",
   "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-matcher-css": "^1.1.0",
+    "postcss": "^8.2.4",
     "postcss-selector-parser": "^6.0.4",
-    "tailwindcss": "^1.9.6",
-    "ava": "^3.13.0"
+    "tailwindcss": "^2.0.0"
   }
 }
