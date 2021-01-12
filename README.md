@@ -7,11 +7,11 @@ Tailwind CSS plugin to generate RTL variants.
 ## Installation
 
 ```bash
-yarn add @abdulkader/tailwind-rtl -D
+yarn add @abdulkaderptp/tailwind-rtl -D
 
 or
 
-npm install @abdulkader/tailwind-rtl --save-dev
+npm install @abdulkaderptp/tailwind-rtl --save-dev
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ RTL styles will be applied when you have `lang="ar"` attribute in html
 
 ```js
 plugins: [
-    require('@abdulkader/tailwind-rtl')(),
+    require('@abdulkaderptp/tailwind-rtl')(),
     // ...
 ],
 ```
@@ -45,7 +45,7 @@ Eg:
 
 ```js
 plugins: [
-    require('@abdulkader/tailwind-rtl')({selectorPrefix: '[dir="rtl"]'}),
+    require('@abdulkaderptp/tailwind-rtl')({selectorPrefix: '[dir="rtl"]'}),
     // ...
 ],
 ```
